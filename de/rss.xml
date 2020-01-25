@@ -1,231 +1,133 @@
-<!DOCTYPE html>
-<html lang="it-ch" data-theme="dark">
-    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-    <meta charset="UTF-8" /><meta name="theme-color" content="#1c1c21" />
-        <script>
-            const userPrefers = localStorage.getItem('theme');
-            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-            if (userPrefers === "dark") {
-                changeModeMeta("dark");
-            } else if (userPrefers === "light") {
-                changeModeMeta("light");
-            } else if (darkModeMediaQuery.matches) {
-                changeModeMeta("dark");
-            } else if (lightModeMediaQuery.matches) {
-                changeModeMeta("light");
-            }
-            function changeModeMeta() {
-                document.documentElement.setAttribute('data-theme', arguments[0]);
-                if (arguments[0] === "dark") {
-                    changeThemeColor("#1c1c21");
-                } else {
-                    changeThemeColor("#fff");
-                }
-            }
-            function changeThemeColor() {
-                document.querySelector('meta[name="theme-color"]').setAttribute('content', arguments[0]);
-            }
-        </script>
-
-    
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-    
-    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
-    
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    
-    <meta name="renderer" content="webkit" />
-
-    <meta name="generator" content="Hugo 0.62.2" />
-
-    <title>Angriff auf die Curva Sud (oder: Überwachen und Strafen, Kapitel 2) | infogbb</title>
-
-    <link rel="stylesheet" href="/css/meme.min.css" data-instant-track />
-
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,500,700,700i|Source+Code+Pro:400,400i,700,700i|Comfortaa:700&display=swap" rel="stylesheet" />
-
-    <meta name="author" content="infogbb" />
-    <meta name="description" content="{::options parse_block_html=&amp;quot;true&amp;rdquo; /} Traduzione in tedesco del comunicato [Attacco alla Curva Sud]({{ site.baseurl }}{% post_url 2018-03-16-attacco-alla-curva-sud %})
-Auf die in einem früheren Schreiben gestellten Fragen haben wir bis jetzt keine Antworten erhalten, hingegen schlug in der Zwischenzeit die harte, repressive Hand desjenigen, „der seit Jahren geflissentlich daran arbeitet, Nulltoleranz durchzuset- zen und die organisierte Fanszene zu zerstören”, wie erwartet heftig zu." />
-    <meta name="keywords" content="" />
-    
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="infogbb" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="infogbb" />
-    <meta name="msapplication-starturl" content="../../" />
-    <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    
-    
-
-    
-    <link rel="canonical" href="https://throwaway1312.github.io/posts/2018-03-16-angriff-auf-die-curva-sud/" />
-
-
-
-
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "datePublished": "2018-03-16T00:01:00+00:00",
-        "dateModified": "2020-01-25T13:36:48+01:00",
-        "url": "https://throwaway1312.github.io/posts/2018-03-16-angriff-auf-die-curva-sud/",
-        "headline": "Angriff auf die Curva Sud (oder: Überwachen und Strafen, Kapitel 2)",
-        "description": "{::options parse_block_html=\u0026quot;true\u0026rdquo; /} Traduzione in tedesco del comunicato [Attacco alla Curva Sud]({{ site.baseurl }}{% post_url 2018-03-16-attacco-alla-curva-sud %})\nAuf die in einem früheren Schreiben gestellten Fragen haben wir bis jetzt keine Antworten erhalten, hingegen schlug in der Zwischenzeit die harte, repressive Hand desjenigen, „der seit Jahren geflissentlich daran arbeitet, Nulltoleranz durchzuset- zen und die organisierte Fanszene zu zerstören”, wie erwartet heftig zu.",
-        "keywords": "",
-        "inLanguage" : "it-ch",
-        "articleSection": "posts",
-        "wordCount":  1820 ,
-        "image": "https://throwaway1312.github.io/icons/apple-touch-icon.png",
-        "author": {
-            "@type": "Person",
-            "description": "test",
-            "email": "reuixiy@gmail.com",
-            "image": "https://throwaway1312.github.io/icons/apple-touch-icon.png",
-            "url": "https://io-oi.me/",
-            "name": "infogbb"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "infogbb",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://throwaway1312.github.io/icons/apple-touch-icon.png"
-            },
-            "url": "https://throwaway1312.github.io/"
-        },
-        "mainEntityOfPage": {
-            "@type": "WebSite",
-            "@id": "https://throwaway1312.github.io/"
-        }
-    }
-</script>
-
-    
-
-
-
-<meta name="twitter:card" content="summary" />
-
-<meta name="twitter:creator" content="@reuixiy" />
-
-    
+<?xml version="1.0" encoding="utf-8"?>
 
 
 
 
 
 
-<meta property="og:title" content="Angriff auf die Curva Sud (oder: Überwachen und Strafen, Kapitel 2)" />
-<meta property="og:description" content="{::options parse_block_html=&amp;quot;true&amp;rdquo; /} Traduzione in tedesco del comunicato [Attacco alla Curva Sud]({{ site.baseurl }}{% post_url 2018-03-16-attacco-alla-curva-sud %})
-Auf die in einem früheren Schreiben gestellten Fragen haben wir bis jetzt keine Antworten erhalten, hingegen schlug in der Zwischenzeit die harte, repressive Hand desjenigen, „der seit Jahren geflissentlich daran arbeitet, Nulltoleranz durchzuset- zen und die organisierte Fanszene zu zerstören”, wie erwartet heftig zu." />
-<meta property="og:url" content="https://throwaway1312.github.io/posts/2018-03-16-angriff-auf-die-curva-sud/" />
-<meta property="og:site_name" content="infogbb" />
-<meta property="og:locale" content="it-ch" /><meta property="og:image" content="https://throwaway1312.github.io/icons/apple-touch-icon.png" />
-    <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2018-03-16T00:01:00+00:00" />
-    <meta property="article:modified_time" content="2020-01-25T13:36:48+01:00" />
-    
-    <meta property="article:section" content="posts" />
-    <meta property="article:tag" content="" />
-
-
-    
-</head>
-
-    <body>
-        <div class="container">
-            
-    <header class="header">
-        <div class="site-brand">
-            
-            <a href="/" class="brand">infogbb</a>
-            
-        </div>
-    </header>
-
-            
-    <nav class="nav">
-        <ul class="menu" id="menu">
-            
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>infogbb</title>
+        <link>https://throwaway1312.github.io/de/</link>
+        <description>Contenitore comunicati Curva Sud Ambrì</description>
+        <generator>Hugo 0.62.2 https://gohugo.io/</generator>
+        
+            <language>it</language>
+        
+        
+            <managingEditor>reuixiy@gmail.com (infogbb)</managingEditor>
+        
+        
+            <webMaster>reuixiy@gmail.com (infogbb)</webMaster>
+        
+        
+        <lastBuildDate>Sat, 25 Jan 2020 16:48:58 +0100</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="https://throwaway1312.github.io/de/rss.xml" />
+        
+        
+            <item>
+                <title>Nein zu den Identitätskontrollen!</title>
+                <link>https://throwaway1312.github.io/de/posts/2018-05-26-no-al-controllo-di-identita/</link>
+                <guid isPermaLink="true">https://throwaway1312.github.io/de/posts/2018-05-26-no-al-controllo-di-identita/</guid>
+                <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
                 
-            
-            
-            
-                <li class="menu-item"><a href="/"><span class="menu-item-name">Comunicati</span></a>
-                </li>
-            
-                <li class="menu-item"><a href="/sgambetto/"><span class="menu-item-name">Sgambetto</span></a>
-                </li>
-            
-        </ul>
-    </nav>
-
-            
-            
-    
-        
-            
-        
-        <div id="theme-toggle" onclick="modeSwitcher()">🌙</div>
-    
-
-            
-    <main class="main single" id="main">
-    <div class="main-inner">
-
-        <article class="content post" data-small-caps="true" data-type="posts" data-layout="post">
-
-            <h1 class="post-title">Angriff auf die Curva Sud (oder: Überwachen und Strafen, Kapitel 2)</h1>
-
-            
-
-            
+                    <author>reuixiy@gmail.com (infogbb)</author>
                 
-            
-
-            
                 
-
-<div class="post-meta">
-    
+                
+                    <description><![CDATA[<p>Nach den jüngsten Erpressungen des Norman &ldquo;uhuhuhuh&rdquo; Gobbi, mit denen er
+seine Forderungen nach ID-Kontrollen in den Hockeystadien des Kantons
+durchzusetzen versucht, wollen wir doch einige Punkte klarstellen und
+Position beziehen gegen die wiederholten Wahnvorstellungen des
+Polizeidirektors.</p>
+<p>Seine Idee sieht vor, ID-Kontrollen bei den kantonalen Sportanlagen zu
+machen. Jeder Matchbesucher – egal ob Stehplatz oder Tribüne – soll beim
+Betreten des Stadions fotografiert und registriert werden. Unser lieber
+und mittlerweile schlanker Staatsrat hat, wie so oft, den Weg der
+Erpressung gewählt, um mit seinen Forderungen durchzukommen. Sollten die
+Vereine nicht einverstanden sein, droht er damit, dass sein Departement
+ab der kommenden Meisterschaft die Bewilligungen zur Durchführung von
+Spielen verweigert. Oder damit, dass die Sicherheitskostenbeteiligung
+der Vereine erhöht werden (derzeit bei einem Franken pro Matchbesucher
+pro Partie). Ziel dieser Drohungen ist es, dass die Vereine freiwillig
+seinen Ideen folgen.
+Gemäss Andreas Leuzinger, Vorsitzender der KOS (Kommission Ordnung und
+Sicherheit der Nationalliga), ist die Einführung solcher Kontrollen nur
+das allerletzte Mittel. Zumal auch nicht sicher ist, ob es die
+Sicherheit wirklich erhöht. Mit anderen Worten, diese Massnahme wird
+auch von denjenigen, welche Verwarnungen und Bussen verhängen, als
+übertrieben und unnötig angesehen. Und die Statistiken zeigen, dass
+Vorfälle mit Gewalt in Stadien in den letzten zehn Jahren rückläufig
+sind. Nichtsdestotrotz beharrt Gobbi uneinsichtig auf seinen
+erpresserischen Forderungen.
+Es soll auch Unterschiede zwischen Fussball- und Eishockeyspielen geben.
+In den Eisstadien sollen sämtliche Zuschauer kontrolliert werden, im
+Cornaredo nur die Gästefans. Und das, obwohl JJ Aeschlimann deutlich
+gemacht hat, dass die Kontrolle von 100 Gästefans das eine sei – es aber
+praktisch unmöglich ist, diese Massnahme auf Tausende Zuschauer
+auszudehnen und diese in einer angemessenen Zeit ins Stadion zu bringen.
+Und der Stadionverantwortliche des Cornaredos kündigte an, dass
+angesichts der hohen Anzahl Gästefans im Schweizer Fussball vorerst mal
+der Gästesektor geschlossen werden würde. Doch auch diejenigen, welche
+vor Ort die Ideen des Departementsvorstehenden umsetzen müssten, können
+den Polizeidirektor nicht zum Nachdenken bringen.
+Also nichts Neues von denen, die seit einiger Zeit darum bemüht sind, im
+Tessin einen Polizeistaat zu errichten, indem sie ihren Handlangern
+einen Freibrief erteilen und unter dem Deckmantel einer verzerrten
+Vision von Gerechtigkeit und Sicherheit eine Polizeiaktion durchführen
+liessen, welche beabsichtigte, die Curva Sud dauerhaft zu zerstören. Mit
+der neuesten Massnahme wird nun die Freiheit aller Fans angegriffen.
+Diese völlig übertriebene und zudem freiheitsrechtlich sehr heikle
+Massnahme würde die Valascia in ein trauriges Betongefängnis verwandeln.
+Die Seele und der Geist der Curva Sud – und damit das, was unser
+Eishockey so grossartig macht, würden zerstört werden. Was wäre denn
+schon ein Match ohne Lieder und Fahnen von leidenschaftlichen Fans, die
+ihre Mannschaft unterstützen?  
+Unsere Position ist klar: Wir akzeptieren niemals, dass wir Fans, welche
+Ambrì vor Ort unterstützen, fotografiert und registriert werden sollen.
+Genausowenig akzeptieren wir, dass dies den Gästefans widerfahren soll.
+Wir sind nicht dagegen, weil wir etwas zu verbergen haben. Im Gegenteil:
+Wir stehen zu all dem was wir machen und was uns ausmacht. Aber im
+Angesicht des immer grösser werdenden Sicherheitswahns, der bereits
+jetzt mit speziellen Gesetzen dafür sorgt, dass in und ums Stadion
+allgemeine Freiheiten plötzlich nicht mehr gelten, nehmen wir diese
+weitere Kriminalisierung unter keinen Umständen in Kauf.  Die
+Entscheidung, dass wir – sollten sich die Sicherheitswahnsinnigen
+durchsetzen - auf die Unterstützung der Mannschaft im Stadion
+verzichten, fällt uns alles andere als leicht, ist doch Ambrì unsere
+grosse Leidenschaft. Aber wir haben unsere Ideale, die wir niemals
+aufgeben. Daher sind wir zu keinem Kompromiss bereit.
+Wir begrüssen es, wenn die gesamte blauweisse Familie zusammensteht und
+die Ablehnung dieser weiteren Kriminalisierung uns aller zum Ausdruck
+bringt, indem Emails und Briefe an den Verein geschrieben werden.</p>
+<p>TIFO * LOTTA * AGGREGAZIONE</p>
+<p>CONTRO LO SPORT MODERNO</p>
+<p><strong>GIOVENTU BIANCOBLU</strong></p>]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
-        <time datetime="2018-03-16T00:01:00+00:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2018.3.16</time>
-    
-    
-    
-    
-        
-        
-        
-            
-        
-    
-    
-    
-    
-</div>
-            
-
-            <div class="post-body"><p style="text-indent:0"><span class="drop-cap">{</span>::options parse_block_html=&quot;true&rdquo; /}
-<em>Traduzione in tedesco del comunicato [Attacco alla Curva Sud]({{
-site.baseurl }}{% post_url 2018-03-16-attacco-alla-curva-sud %})</em></p>
-<p>Auf die in einem früheren Schreiben gestellten Fragen haben wir bis jetzt keine
+            <item>
+                <title>Angriff auf die Curva Sud (oder: Überwachen und Strafen, Kapitel 2)</title>
+                <link>https://throwaway1312.github.io/de/posts/2018-03-16-attacco-alla-curva-sud/</link>
+                <guid isPermaLink="true">https://throwaway1312.github.io/de/posts/2018-03-16-attacco-alla-curva-sud/</guid>
+                <pubDate>Fri, 16 Mar 2018 00:01:00 +0000</pubDate>
+                
+                    <author>reuixiy@gmail.com (infogbb)</author>
+                
+                
+                
+                    <description><![CDATA[<p>Auf die in einem früheren Schreiben gestellten Fragen haben wir bis jetzt keine
 Antworten erhalten, hingegen schlug in der Zwischenzeit die harte, repressive Hand
 desjenigen, „der seit Jahren geflissentlich daran arbeitet, Nulltoleranz durchzuset-
 zen und die organisierte Fanszene zu zerstören”, wie erwartet heftig zu.
@@ -239,8 +141,8 @@ Kinder, der Lebenspartner, der Freunde oder der Eltern vor, wenn am frühen Mor-
 gen Polizeikräfte mit einem Durchsuchungs- und Haftbefehl vor der Türe stehen. Die
 „Operazione Valascia”, erinnert in ihrem Ausmass an Polizeiaktionen gegen interna-
 tionalen Drogenhandel oder Geldwäscherei oder an Ermittlungen im Rahmen von
-Tötungsdelikten.
-Eine auf jeden Fall sehr kostspielige Grossaktion (alle Verhafteten wurden nach
+Tötungsdelikten.</p>
+<p>Eine auf jeden Fall sehr kostspielige Grossaktion (alle Verhafteten wurden nach
 den Befragungen individuell nach Lugano geführt zur Entnahme der DNA und zur
 erkennungsdienstlichen Behandlung), die unverhältnismässig erscheint, betrachtet
 man die Anschuldigungen – Landfriedensbruch, Vermummung, Gewalt und Drohung
@@ -414,93 +316,19 @@ Wir sind die Gbb, wir sind die Curva Sud, schön, rebellisch, besonders, kurz ge
 nigen unangenehm ist, der für eine Welt der Grenzen und Repression ist.
 Und wie jemand in der Vergangenheit gesagt hat: „Auf alle Fälle ohne
 Reue“.</p>
-<p>Gioventù Biancoblu * Curva Sud Ambrì</p>
-</div>
-
-        </article>
-
+<p>Gioventù Biancoblu * Curva Sud Ambrì</p>]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
-
-        
-
-        
-
-        
-
-        
-    
-    
-
-
-        
-    
-
-
-        
-
-        
-
-        
-    
-        
-        
-    
-    
-    
-    
-        <ul class="post-nav">
-            
-                <li class="post-nav-prev">
-                    <a href="/posts/2018-03-22-etimologie-collusioni-e-inquinamenti/" rel="prev">< Nel tempo dell'inganno universale, dire la verità è un atto rivoluzionario (di etimologie, collusioni e inquinamenti)</a>
-                </li>
-            
-            
-                <li class="post-nav-next">
-                    <a href="/posts/2018-03-16-attacco-alla-curva-sud/" rel="next">Attacco alla Curva Sud (ovvero Sorvegliare e Punire, capitolo II) ></a>
-                </li>
-            
-        </ul>
-    
-
-
-        
-
-    </div>
-</main>
-
-            
-    <div id="back-to-top" class="back-to-top">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
-    </div>
-
-            
-        </div>
-        <script src="/js/meme.min.js" data-no-instant></script>
-
-
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speedAsDuration: true
-    });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
-</html>
+    </channel>
+</rss>
