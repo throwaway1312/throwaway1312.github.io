@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://throwaway1312.github.io/</loc>
-    <lastmod>2020-01-25T16:46:12+01:00</lastmod>
+    <lastmod>2020-01-25T18:18:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -18,18 +18,13 @@
   </url>
   
   <url>
-    <loc>https://throwaway1312.github.io/solidarieta/</loc>
-    <lastmod>2020-01-25T14:20:28+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://throwaway1312.github.io/posts/2018-12-21-imbucato/</loc>
     <lastmod>2020-01-25T13:36:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://throwaway1312.github.io/posts/</loc>
-    <lastmod>2020-01-25T14:33:18+01:00</lastmod>
+    <lastmod>2020-01-25T18:18:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -84,7 +79,7 @@
   
   <url>
     <loc>https://throwaway1312.github.io/posts/2018-03-16-attacco-alla-curva-sud/</loc>
-    <lastmod>2020-01-25T14:30:44+01:00</lastmod>
+    <lastmod>2020-01-25T18:09:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -104,12 +99,27 @@
   
   <url>
     <loc>https://throwaway1312.github.io/posts/2018-01-18-sorvegliare-e-punire/</loc>
-    <lastmod>2020-01-25T14:24:13+01:00</lastmod>
+    <lastmod>2020-01-25T18:00:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://throwaway1312.github.io/posts/misure_sicuerezza_davos/</loc>
+    <lastmod>2020-01-25T18:18:32+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://throwaway1312.github.io/contatto/</loc>
-    <lastmod>2020-01-25T16:46:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://throwaway1312.github.io/sgambetto/</loc>
+    <lastmod>2020-01-25T17:44:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://throwaway1312.github.io/solidarieta/</loc>
+    <lastmod>2020-01-25T17:51:29+01:00</lastmod>
   </url>
   
   <url>
@@ -124,11 +134,6 @@
                 hreflang="it"
                 href="https://throwaway1312.github.io/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://throwaway1312.github.io/sgambetto/</loc>
-    <lastmod>2020-01-25T13:36:48+01:00</lastmod>
   </url>
   
   <url>

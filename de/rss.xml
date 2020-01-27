@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>infogbb</title>
+        <title>infoGBB</title>
         <link>https://throwaway1312.github.io/de/</link>
         <description>Contenitore comunicati Curva Sud Ambrì</description>
         <generator>Hugo 0.62.2 https://gohugo.io/</generator>
@@ -15,13 +15,9 @@
             <language>it</language>
         
         
-            <managingEditor>reuixiy@gmail.com (infogbb)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (infogbb)</webMaster>
-        
-        
-        <lastBuildDate>Sat, 25 Jan 2020 17:02:07 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jan 2020 11:03:52 +0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://throwaway1312.github.io/de/rss.xml" />
         
@@ -31,8 +27,6 @@
                 <link>https://throwaway1312.github.io/de/posts/2018-05-26-no-al-controllo-di-identita/</link>
                 <guid isPermaLink="true">https://throwaway1312.github.io/de/posts/2018-05-26-no-al-controllo-di-identita/</guid>
                 <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-                
-                    <author>reuixiy@gmail.com (infogbb)</author>
                 
                 
                 
@@ -122,8 +116,6 @@ bringt, indem Emails und Briefe an den Verein geschrieben werden.</p>
                 <link>https://throwaway1312.github.io/de/posts/2018-03-16-attacco-alla-curva-sud/</link>
                 <guid isPermaLink="true">https://throwaway1312.github.io/de/posts/2018-03-16-attacco-alla-curva-sud/</guid>
                 <pubDate>Fri, 16 Mar 2018 00:01:00 +0000</pubDate>
-                
-                    <author>reuixiy@gmail.com (infogbb)</author>
                 
                 
                 
